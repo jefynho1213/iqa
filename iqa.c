@@ -11,19 +11,4 @@
 
 			}
 
-		for(i=0; i<=8; i++){
-			param[i]*=peso[i];
-			printf("%lf\n", param[i]);
-		}
-
-		/*
-
-		%O2 = param[0]
-		CF = param[1]
-		pH = param[2]
-		DBO = param[3]
-		FT = param[]
-
- 		*/
-
 	}
