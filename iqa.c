@@ -3,7 +3,7 @@
 
 	int main(){
 
-		double param[8], peso[9] = {0.17, 0.15, 0.12, 0.10, 0.10, 0.10, 0.10, 0.08, 0.08} , teste[8]; 
+		double param[8], peso[9] = {0.17, 0.15, 0.12, 0.10, 0.10, 0.10, 0.10, 0.08, 0.08} , teste[8];
 		 //oxigenio 0, coliformes 1, potencial 2, demanda 3, temperatura 4, nitrogenio 5, fosforo 6, turbidez 7, rtotal 8;
 		int i;
 
@@ -11,21 +11,29 @@
 			scanf("%lf", &param[i]);
 
 			}
-		
+
+
 
 	}
-	
- 	void o2(void){
- 	
- 		double q9;
- 	
- 		q9=100,8*(pow(10, pow(param[0-160], 2)/-3745));
- 	
+
+ 	void o2(double o2){
+
+
+ 		q9=100,8*(pow(10, pow(o2 -106, 2)/-3745));
+
  	}
-	void cf(void){
-		double q1;
-	
-		q1 = -98.03+(36.45*log10(param[1]))+(3,138*pow(log10(param[1]), 2))+(0.06776*pow(log10(param[1]), 3));
-		
-		
+	void cf(double cf)){
+
+		q1 = -98.03+(36.45*log10(cf))+(3,138*pow(log10(cf), 2))+(0.06776*pow(log10(cf), 3));
+
+
+	}
+
+
+	void ph (double ph){
+
+        q2 = 0.05421*pow(ph, 1.23*ph+c*pow(ph, 2))+5.213;
+
+        return q2;
+
 	}
