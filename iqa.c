@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <math.h>
+#include 'iqa.h'
 
-	int int main()
+	int main()
 	{
 		
-		double o2, cf, ph, dbo, ft, nt, tu, deltat, qn, qo2, qcf, qph, qdbo, qft, qnt, qtu, qdeltat;
+		double o2, cf, ph, dbo, ft, nt, tu, vt, st, qo2, qcf, qph, qdbo, qft, qnt, qtu, qvt, qst;
 		/*
 		o2 = percentual de oxigenio
 		cf = colifornes fecais
@@ -14,7 +15,7 @@
 		nt = nitrogenio total
 		tu = turbidez
 		deltat = variacao de temperatura
-		qn = valor qualidade da ágaa
+		st = solidos totais
 		*/
 
 
@@ -22,3 +23,4 @@
 
 		return 0;
 	}
+
