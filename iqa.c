@@ -63,12 +63,8 @@
 
 		printf("Média = %lf\n", media);
 
-		
+		qualidade(media);
 
 		
-
-
-
 		return 0;
 	}
-
