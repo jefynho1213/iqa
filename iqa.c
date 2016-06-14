@@ -44,7 +44,7 @@
 		scanf("%lf", &nt);
 		printf("Insira valor de turbidez: ");
 		scanf("%lf", &tu);
-		printf("Insira valor de variacao: ");
+		printf("Insira valor de variacao de temperatura: ");
 		scanf("%lf", &dt);
 		printf("Insira valor de solidos: ");
 		scanf("%lf", &st);
