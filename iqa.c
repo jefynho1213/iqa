@@ -32,13 +32,13 @@
 
 		printf("Insira valor do percentual de oxigenio: ");
 		scanf("%lf", &o2);
-		printf("Insira valor de colifornes fecais: ");
+		printf("Insira valor de colifornes fecaiss(Nmp/L): ");
 		scanf("%lf", &cf);
 		printf("Insira valor de percentual hidrogenico: ");
 		scanf("%lf", &ph);
-		printf("Insira valor de demanda bioquimica de oxigenio: ");
+		printf("Insira valor de demanda bioquimica de oxigenios(Mg/L): ");
 		scanf("%lf", &dbo);
-		printf("Insira valor de fosforo total: ");
+		printf("Insira valor de fosforo total(Mg/L): ");
 		scanf("%lf", &ft);
 		printf("Insira valor de nitrogenio total: ");
 		scanf("%lf", &nt);
@@ -46,7 +46,7 @@
 		scanf("%lf", &tu);
 		printf("Insira valor de variacao de temperatura: ");
 		scanf("%lf", &dt);
-		printf("Insira valor de solidos: ");
+		printf("Insira valor de solidos totais(Mg/L): ");
 		scanf("%lf", &st);
 
 		qo2 = pow(e_o2(o2), peso_o2);
