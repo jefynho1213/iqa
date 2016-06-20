@@ -243,7 +243,7 @@ void qualidade(double media){
 	{
 	printf("Qualidade Aceitável\n");
 	}
-	if (media > 50 && media < 79)
+	if (media > 50 && media <= 79)
 	{
 	printf("Qualidade Boa\n");
 	}
@@ -255,6 +255,9 @@ void qualidade(double media){
 	//caso a média seja maior que 100 ou nenor que 0
 	if(media > 100){
 		printf("Ocorreu o erro 0100M\n");
+	}
+	if(meida<0){
+		printf("Ocorreu o erro 0<00M\n");
 	}
 
 }
