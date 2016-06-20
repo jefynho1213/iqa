@@ -30,13 +30,13 @@
 
 
 
-		printf("Insira valor do percentual de oxigenio: ");
+		printf("Insira valor do percentual de oxigênio: ");
 		scanf("%lf", &o2);
-		printf("Insira valor de colifornes fecaiss(Nmp/L): ");
+		printf("Insira valor de coliformes fecais(Nmp/mL): ");
 		scanf("%lf", &cf);
-		printf("Insira valor de percentual hidrogenico: ");
+		printf("Insira valor de percentual hidrogênico: ");
 		scanf("%lf", &ph);
-		printf("Insira valor de demanda bioquimica de oxigenios(Mg/L): ");
+		printf("Insira valor de demanda bioquimica de oxigênio(Mg/L): ");
 		scanf("%lf", &dbo);
 		printf("Insira valor de fosforo total(Mg/L): ");
 		scanf("%lf", &ft);
